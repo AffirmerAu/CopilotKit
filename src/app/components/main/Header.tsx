@@ -11,6 +11,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import { PerformResearchSwitch } from "../buttons/PerformResearchSwitch";
 import { AddSlideButton } from "../buttons/AddSlideButton";
 
+
 interface HeaderProps {
   currentSlideIndex: number;
   setCurrentSlideIndex: (fn: (i: number) => number) => void;
